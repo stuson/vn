@@ -3,11 +3,9 @@ import React, { Component } from 'react';
 class MainScreen extends Component {
     render() {
         return(
-            <div className="main-screen-wrapper">
                 <div className="main-screen" style={{backgroundImage: `url(/resource/bg/${this.props.bgSrc})`}}>
                     <TextWindow header="Tus" text='Wew lad.'/>
                 </div>
-            </div>
         )
     }
 }
